@@ -92,6 +92,7 @@ a:hover {
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -573,6 +574,7 @@ a[data-lightbox]:hover img {
 
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
+    max-width: 90vh;
     margin: 0 auto;
 }
 
@@ -819,10 +821,12 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
