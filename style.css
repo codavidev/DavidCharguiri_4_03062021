@@ -738,7 +738,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #333!important;;
 }
 
 .portfolio-thumb {
@@ -777,12 +777,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #262626!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -828,7 +828,13 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
     background-image: url("img/image-de-presentation.webp");
 }
-
+q {
+    color: #575757;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    quotes: "“" "”";
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
