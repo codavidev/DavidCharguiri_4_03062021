@@ -196,7 +196,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .6);
 }
 
 .d-bloc .panel button:hover,
@@ -678,10 +678,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 16px;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -829,12 +825,15 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
     background-image: url("img/image-de-presentation.webp");
 }
-q {
+blockquote {
     color: #333;
     font-size: 20px;
     font-style: italic;
     font-weight: 400;
     quotes: "“" "”";
+    padding: 0 20px;
+    margin: 0 2.77vw;
+    border: none;
 }
 @media (max-width: 1024px) {
     .bloc {
